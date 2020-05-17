@@ -31,7 +31,7 @@ html{
 
 /* home page desgin start here */
 
-.home,{
+.home{
   margin-top: 50px;
 }
 
@@ -88,7 +88,7 @@ span.name-c{
   text-align: center;
   background-color: #252627;
   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.8);
-  margin-top: -35px;
+  margin-top: -30px;
   max-width: 800px;
   color: #BEBEBE;
 }
