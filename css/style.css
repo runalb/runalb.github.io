@@ -60,7 +60,6 @@ span.name-c {
 }
 .box p {
 	padding: 40px;
-  margin-bottom: 0px;
 }
 .box p::nth-child(2),
 .box p:last-child {
@@ -88,7 +87,8 @@ a:active {
 	color: #BEBEBE
 }
 footer hr {
-	border: 1px solid #707070
+	border: 1px solid #707070;
+	margin-top: 0px;
 }
 footer p {
 	font-size: 15px;
