@@ -74,7 +74,8 @@ span.name-c {
 }
 .fa {
 	text-align: center;
-	text-decoration: none
+	text-decoration: none;
+	padding: 5px
 }
 .fa:hover {
 	color: #BE5565;
@@ -84,7 +85,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-	color: #BEBEBE
+	color: #707070
 }
 footer hr {
 	border: 1px solid #707070;
