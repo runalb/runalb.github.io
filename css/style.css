@@ -60,7 +60,7 @@ span.name-c {
 }
 .box p {
 	padding: 40px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 .box p::nth-child(2),
 .box p:last-child {
