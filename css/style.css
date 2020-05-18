@@ -2,7 +2,7 @@
 
 .social-links{text-align:center}
 .social-links a{text-align:center;margin:0 5px}
-.fa{text-align:center;padding:5px;text-decoration:none}
+.fa{text-align:center;text-decoration:none}
 .fa:hover{color:#BE5565;opacity:0.7}
 a:link,a:visited,a:hover,a:active{color:#BEBEBE}
 
