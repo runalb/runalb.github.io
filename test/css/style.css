@@ -67,6 +67,7 @@ html{
   margin-top: 0px;
 }
 
+
 .home h1{
   font-size: 4em;
   font-family: "PT Sans", sans-serif;
@@ -74,18 +75,47 @@ html{
   font-weight: 600;
   line-height: 60px;
   margin-top: 100px;
-  margin-bottom: 20%;
+
   letter-spacing: 1px;
 
   margin-left: 15%;
 }
 
 @media only screen and (max-width: 1023px) {
-.home h1 {
+  .home h1 {
     margin-left: 0px;
     margin-top: 15%;
   }
 }
+
+@media only screen and (max-width: 1023px) {
+  .home p{
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .home p{
+    margin-left: 16%;
+  }
+}
+
+
+
+.home p{
+  text-align: left;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-size: .8rem;
+  color: #BEBEBE;
+  margin-bottom: 30px;
+}
+
+.home h1{
+  margin-bottom: 2px;
+}
+
+
 
 span.rname-c{
   color: #ED5565;
