@@ -40,8 +40,17 @@
 		<input type="submit" value="submit Details">
 	</form>
 	<script>
-		const scriptURL='https://script.google.com/macros/s/AKfycbxUpf4XIyvvYgF7sgTYbN5vewDixMCux4_6xGTl0hC-wlMC5uN-/exec' const form=document.forms['honda'] form.addEventListener('submit',e=>{e.preventDefault() fetch(scriptURL,{method:'POST',body:new FormData(form)}).then(response=>console.log('Success!',alert("Data Added"))).catch(error=>console.error('Error!',alert("Error - txt")))})
-	</script>
+		
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxUpf4XIyvvYgF7sgTYbN5vewDixMCux4_6xGTl0hC-wlMC5uN-/exec'
+const form = document.forms['honda'] form.addEventListener('submit', e => {
+	e.preventDefault() fetch(scriptURL, {
+		method: 'POST',
+		body: new FormData(form)
+	}).then(response => console.log('Success!', alert("Data Added"))).catch(error => console.error('Error!', alert("Error - txt")))
+})
+
+</script>
 </body>
 
 </html>
