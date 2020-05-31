@@ -16,37 +16,91 @@
 	
 	
 	
+	<style>
+		body{
+  background-color: #fff;
+}
+
+.container{
+  padding: 10px 10px;
+}
+
+
+.box{
+  padding: 10px;
+  text-align: center;
+}
+
+	
+	
+	</style>
+	
+	
+	
 </head>
 
 <body>
-  <h1>Honda Service</h1>
-  <form name="honda">
-    <label for="fname">heading-1</label><br>
-    <input type="text" name="1" placeholder="Enter text"><br>
+	
+	<div class="container">
+
+    <div class="box">
 
 
-    <label for="fname">heading-2</label><br>
-    <input type="text" name="2" placeholder="Enter text"><br>
 
-    <label for="fname">heading-3</label><br>
-    <input type="text" name="3" placeholder="Enter text"><br>
 
-    <label for="fname">heading-4</label><br>
-    <input type="text" name="4" placeholder="Enter text"><br>
 
-    <label for="fname">heading-5</label><br>
-    <input type="text" name="5" placeholder="Enter text"><br>
+      <h1>Honda Service</h1>
+      <form name="honda">
+        <label for="fname">heading-1</label>
+        <input type="text" name="1" placeholder="Enter text">
 
-    <label for="fname">heading-6</label><br>
-    <input type="text" name="6" placeholder="Enter text"><br>
+        <br>
 
-    <input type="submit" value="submit Details"><br>
-	  
-	  
-	  <input type="reset" value="Clear">
 
-  </form>
-  <script>
+        <label for="fname">heading-2</label>
+        <input type="text" name="2" placeholder="Enter text">
+        <br>
+
+        <label for="fname">heading-3</label>
+        <input type="text" name="3" placeholder="Enter text">
+        <br>
+
+        <label for="fname">heading-4</label>
+        <input type="text" name="4" placeholder="Enter text">
+        <br>
+
+        <label for="fname">heading-5</label>
+        <input type="text" name="5" placeholder="Enter text">
+        <br>
+
+        <label for="fname">heading-6</label>
+
+        <select name="6">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+        <br>
+
+        <input type="submit" value="submit Details">
+        <input type="reset" value="Clear">
+
+      </form>
+
+
+    </div>
+
+  </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	<script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxUpf4XIyvvYgF7sgTYbN5vewDixMCux4_6xGTl0hC-wlMC5uN-/exec'
     const form = document.forms['honda']
 
