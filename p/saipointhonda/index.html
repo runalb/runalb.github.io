@@ -172,7 +172,8 @@ fieldset {
 </head>
 
 <body>
- <div class="container">
+ 
+  <div class="container">
     <form id="contact" name='honda'>
       <h3>Honda Service Record</h3>
       <h4>Sai Point Honda, Yavatmal</h4>
@@ -182,44 +183,44 @@ fieldset {
 
       <h5>Name</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="1" name="1" id="c1">
+        <input placeholder="Enter details" type="text" tabindex="1" name="1" id="c1" required>
       </fieldset>
 
 
       <h5>Vehicle Number</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="2" name="2" id="c2">
+        <input placeholder="Enter details" type="text" tabindex="2" name="2" id="c2" required>
       </fieldset>
 
 
       <h5>Job Card No.</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="3" name="3" id="c3">
+        <input placeholder="Enter details" type="text" tabindex="3" name="3" id="c3" required>
       </fieldset>
 
 
       <h5>Service Type</h5>
       <fieldset>
-       <select name="4" id="c4" >
-			<option value="0">- Select -</option>
-			<option value="50">Paid</option>
-			<option value="0">Free-1</option>
-			<option value="0">Free-2</option>
-			<option value="0">Free-3</option>
-			<option value="0">Free-4</option>
-		</select>
+        <select name="4" id="c4" >
+          <option value='' disabled selected hidden>- Select -</option>
+          <option value="50">Paid</option>
+          <option value="0">Free-1</option>
+          <option value="0">Free-2</option>
+          <option value="0">Free-3</option>
+          <option value="0">Free-4</option>
+        </select>
       </fieldset>
 	  
 	  
 	   <h5>Consumer Charge</h5>
       <fieldset>
-        <input placeholder="Enter details" type="number" tabindex="5" name="5" id="c5">
+        <input placeholder="Enter details" type="number" tabindex="5" name="5" id="c5" required>
       </fieldset>
 
 
       <h5>Spare Parts</h5>
       <fieldset>
-        <input placeholder="Enter details" type="number" tabindex="6" name="6" id="c6">
+        <input placeholder="Enter details" type="number" tabindex="6" name="6" id="c6" required>
       </fieldset>
     
       
@@ -231,8 +232,9 @@ fieldset {
 	  <h5>Oil</h5>
       <fieldset>
         
-        <select name="7" id="c7">
-          <option value="0">- None -</option>
+        <select name="7" id="c7" >
+          <option value='' disabled selected hidden>- Select -</option>
+          <option value="0">None</option>
           <option value="270">270</option>
           <option value="340">340</option>
         </select>
@@ -248,30 +250,31 @@ fieldset {
 	  
 	  <h5>ACO</h5>
       <fieldset>
-        <input placeholder="Enter details" type="number" tabindex="8" name="8" id="c8">
+        <input placeholder="Enter details" type="number" tabindex="8" name="8" id="c8" required>
       </fieldset>
 	  
 	  
 	  <h5>Labor Charge</h5>
       <fieldset>
-        <input placeholder="Enter details" type="number" tabindex="9" name="9" id="c9">
+        <input placeholder="Enter details" type="number" tabindex="9" name="9" id="c9" required>
       </fieldset>
 	  
 	  
 	  <h5>AMC</h5>
       <fieldset>
-        <input placeholder="Enter details" type="number" tabindex="10" name="10" id="c10">
+        <input placeholder="Enter details" type="number" tabindex="10" name="10" id="c10" required>
       </fieldset>
 
 
       <h5>Other</h5>
       <fieldset>
-        <input placeholder="Enter details" type="number" tabindex="11" name="11" id="c11">
+        <input placeholder="Enter details" type="number" tabindex="11" name="11" id="c11" required>
       </fieldset>
 
       <fieldset>
         <button type="button"  onclick="add()">Total:</button>
-        <input id="total" type="textt" name="12" value="Click Total Button to View">
+        <input id="total" type="textt"  placeholder="Click Total Button to View" disabled>
+        <input id="totalh" type="textt" name="12" placeholder="Click Total Button to View" hidden required>
       </fieldset>
 
       <fieldset>
