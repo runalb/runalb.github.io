@@ -162,97 +162,141 @@ fieldset {
 </head>
 
 <body>
-  <div class="container">
-  <form id="contact" name='honda'>
-    <h3>Honda Service Record</h3>
-    <h4>Sai Point Honda, Yavatmal</h4>
-    
-    
-    <h5>Name</h5>
+ <div class="container">
+    <form id="contact" name='honda'>
+      <h3>Honda Service Record</h3>
+      <h4>Sai Point Honda, Yavatmal</h4>
+
+
+
+
+      <h5>Name</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="1" name="1">
+        <input placeholder="Enter details" type="text" tabindex="1" name="1" id="c1">
       </fieldset>
 
 
       <h5>Vehicle Number</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="2" name="2">
+        <input placeholder="Enter details" type="text" tabindex="2" name="2" id="c2">
       </fieldset>
 
 
       <h5>Job Card No.</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="3" name="3">
+        <input placeholder="Enter details" type="text" tabindex="3" name="3" id="c3">
       </fieldset>
 
 
       <h5>Service Type</h5>
       <fieldset>
-        <select name="4" >
-			<option value="">- Select -</option>
-			<option>Paid</option>
-			<option>Free-1</option>
-			<option>Free-2</option>
-			<option>Free-3</option>
-			<option>Free-4</option>
+       <select name="4" id="c4" >
+			<option value="0">- Select -</option>
+			<option value="50">Paid</option>
+			<option value="0">Free-1</option>
+			<option value="0">Free-2</option>
+			<option value="0">Free-3</option>
+			<option value="0">Free-4</option>
 		</select>
       </fieldset>
 	  
 	  
 	   <h5>Consumer Charge</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="5" name="5">
+        <input placeholder="Enter details" type="number" tabindex="5" name="5" id="c5">
       </fieldset>
 
 
       <h5>Spare Parts</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="6" name="6">
+        <input placeholder="Enter details" type="number" tabindex="6" name="6" id="c6">
       </fieldset>
-	  
+    
+      
+
+
+
+
 	  
 	  <h5>Oil</h5>
       <fieldset>
-        <select name="7" >
-			<option value="">- Select -</option>
-			<option value="270"> 270 - Oil Name</option>
-			<option value="340">340 - Oil Name</option>
-		</select>
+        
+        <select name="7" id="c7">
+          <option value="0">- None -</option>
+          <option value="270">270</option>
+          <option value="340">340</option>
+        </select>
+
+      
+    
       </fieldset>
-	  
+    
+      
+
+
+
 	  
 	  <h5>ACO</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="8" name="8">
+        <input placeholder="Enter details" type="number" tabindex="8" name="8" id="c8">
       </fieldset>
 	  
 	  
 	  <h5>Labor Charge</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="9" name="9">
+        <input placeholder="Enter details" type="number" tabindex="9" name="9" id="c9">
       </fieldset>
 	  
 	  
 	  <h5>AMC</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="10" name="10">
+        <input placeholder="Enter details" type="number" tabindex="10" name="10" id="c10">
       </fieldset>
 
 
       <h5>Other</h5>
       <fieldset>
-        <input placeholder="Enter details" type="text" tabindex="11" name="11">
+        <input placeholder="Enter details" type="number" tabindex="11" name="11" id="c11">
       </fieldset>
 
-     
-      
       <fieldset>
-        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        <button type="button"  onclick="add()">Total:</button>
+        <input id="total" type="textt" name="12">
       </fieldset>
-    <p class="copyright">This App is Designed & Developed by <a href="https://runalb.com" target="_blank" >RunalB</a> <br>Copyright © | All Rights Reserved.</p>
-  </form>
-</div>
 
+      <fieldset>
+        <button name="submit" type="submit" id="submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+
+
+
+
+      <p class="copyright">This App is Designed & Developed by <a href="https://runalb.com" target="_blank">RunalB</a> <br>Copyright © | All Rights Reserved.</p>
+
+    </form>
+  </div>
+
+
+  
+<script>
+function add(){
+  var t,d,e,f,g,h,i,j,g,k;
+  d=Number(document.getElementById("c4").value);
+  e=Number(document.getElementById("c5").value);
+  f=Number(document.getElementById("c6").value);
+  g=Number(document.getElementById("c7").value);
+  h=Number(document.getElementById("c8").value);
+  i=Number(document.getElementById("c9").value);
+  j=Number(document.getElementById("c10").value);
+  k=Number(document.getElementById("c11").value);
+ 
+  t= d + e + f + g + h + i + j + k;
+  document.getElementById("total").value= t;
+  }
+	
+</script>
+	
+	
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxUpf4XIyvvYgF7sgTYbN5vewDixMCux4_6xGTl0hC-wlMC5uN-/exec'
     const form = document.forms['honda']
