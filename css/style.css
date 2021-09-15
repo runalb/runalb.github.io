@@ -15,6 +15,7 @@ html {
 }
 .home,
 .box-about,
+.box-badges,
 .box-skills,
 .box-work,
 .box-contact {
@@ -228,6 +229,43 @@ span.rname-c {
 	width: 100%;
 	height: 10px
 }
+
+/* Badges CSS */
+.box-badges img {
+	width: 100%
+}
+.box-badges h2,
+.box-badges h4,
+.box-badges h5,
+.box-badges h6 {
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	margin: 0;
+	font-size: 1.5rem;
+	letter-spacing: 1px
+}
+.box-badges h1 {
+    text-align: right;
+	font-size: 4em;
+	color: #FFF;
+	font-weight: 600;
+	letter-spacing: 1px;
+	opacity: 0.3
+}
+.box-badges h3 {
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 0;
+	font-size: 1.1rem
+}
+
+
+
+
+
 .box-work img {
 	width: 100%
 }
@@ -270,6 +308,7 @@ span.rname-c {
 	margin-bottom: 0;
 	font-size: 1.1rem
 }
+.line,
 .line-exp,
 .line-mypro,
 .line-mywork,
@@ -280,6 +319,7 @@ span.rname-c {
 	margin: 1px auto;
 	margin-bottom: 15px
 }
+.line,
 .line-exp,
 .line-mypro,
 .line-achiev,
