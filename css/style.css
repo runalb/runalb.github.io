@@ -253,13 +253,14 @@ span.rname-c {
 	letter-spacing: 1px;
 	opacity: 0.3
 }
-.box-badges h3 {
+.box-badges h3 {	
 	text-align: center;
 	color: #FFF;
 	font-weight: bold;
 	margin: 0;
 	margin-bottom: 0;
-	font-size: 1.1rem
+	font-size: 1.1rem;
+	margin-top: 5px;
 }
 
 
