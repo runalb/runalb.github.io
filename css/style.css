@@ -169,7 +169,7 @@ span.rname-c {
 	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8)
 }
 .box-skills h1 {
-	text-align: right;
+	text-align: left;
 	font-size: 4em;
 	color: #FFF;
 	font-weight: 600;
@@ -285,6 +285,7 @@ span.rname-c {
 	letter-spacing: 1px
 }
 .box-work h1 {
+	text-align: right;
 	font-size: 4em;
 	color: #FFF;
 	font-weight: 600;
@@ -401,12 +402,12 @@ span.rname-c {
 	transform: rotate(45deg)
 }
 .box-contact h1 {
+	text-align: left;
 	font-size: 4em;
 	color: #FFF;
 	font-weight: 600;
 	letter-spacing: 1px;
 	opacity: 0.3;
-	text-align: right
 }
 .box-contact h2 {
 	text-align: center;
