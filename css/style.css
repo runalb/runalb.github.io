@@ -44,6 +44,10 @@ html {
 		margin-left: 0px;
 		margin-top: 15%
 	}
+
+	#hide-on-sm-screen{
+		display: none;
+	}
 }
 @media only screen and (max-width: 1023px) {
 	.home p {
@@ -257,12 +261,14 @@ span.rname-c {
 	text-align: center;
 	color: #FFF;
 	font-weight: bold;
-	margin: 0;
 	margin-bottom: 0;
-	font-size: 1.1rem;
-	margin-top: 5px;
+	font-size: 1rem;
 }
 
+.badge-text{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 
 
 
