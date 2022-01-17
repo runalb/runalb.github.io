@@ -746,7 +746,7 @@
 			</div>
 			<footer>
 				<hr>
-				<p>Copyright &copy; 2022 | All Rights Reserved.
+				<p>Copyright &#169; <span id="currentYear"></span> | All Rights Reserved.
 				<br>This Website is Designed & Developed by RunalB.</p>
 			</footer>
 		</div>
@@ -766,6 +766,12 @@
 						duration: 700,
 						easing: 'ease-out-cubic',
 					});
+		</script>
+		
+		<script>
+			let footerYear = document.getElementById("currentYear");
+			let year = new Date().getFullYear();
+			footerYear.innerText = year;
 		</script>
 		<script>
 			function cv() {
