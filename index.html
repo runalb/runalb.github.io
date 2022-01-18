@@ -709,7 +709,7 @@
 								</div>
 								<div class="large-6 medium-6 column">
 									<div class="form-box">
-										<form id="contactform" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfqmg2-hUPM7rkNSj9lQ7k4blRWmD9bDnaKIg4gkIho6GRNiQ/formResponse" target="_blank">
+										<form id="contactform" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfqmg2-hUPM7rkNSj9lQ7k4blRWmD9bDnaKIg4gkIho6GRNiQ/formResponse" target="_blank" onsubmit="this.submit(); this.reset();">
 											<div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
 												<input type="text" placeholder="Your Name" name="entry.2035906608" required>
 											</div>
@@ -768,9 +768,7 @@
 					alert("\nSorry for the inconvenience!\n\nPlease check again later");
 			}
 
-			function clearform() {
-  				document.getElementById("contactform").reset();
-			}
+			
 		</script>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
