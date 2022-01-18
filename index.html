@@ -778,17 +778,7 @@
 					alert("\nSorry for the inconvenience!\n\nPlease check again later");
 				}
 	
-					const scriptURL = 'https://script.google.com/macros/s/AKfycbzdnar3cXQGyEaqRcAAwVyCUAHQaxxc1gr9jgxgOQWoYGn-daAE/exec'
-					const form = document.forms['submit-to-sheet']
-					form.addEventListener('submit', e => {
-						e.preventDefault()
-						fetch(scriptURL, {
-								method: 'POST',
-								body: new FormData(form)
-							})
-							.then(response => console.log('Success!', alert("\nThank you for your message !\n\nI got your message and would like to thank you for writing.\n\nPlease check your email inbox. I will contact you as soon as possible.\n\n"),location.reload()))
-							.catch(error => console.error('Error!', alert("\nError\n\nPlease check your internet connection and try again")))
-					});
+					
 		</script>	
 	</body>
 
