@@ -2686,16 +2686,3 @@ textarea {
 		left: auto
 	}
 }
-
-/* Scroll bar */
-::-webkit-scrollbar {
-  width: 5px;
-::-webkit-scrollbar-track {
-  background: #BEBEBE; 
-}
-::-webkit-scrollbar-thumb {
-  background: #ED5565; 
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #ED5565; 
-}
