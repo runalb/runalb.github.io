@@ -8,19 +8,6 @@ html {
 	scroll-behavior: smooth
 }
 
-/* Scroll bar */
-::-webkit-scrollbar {
-  width: 5px;
-::-webkit-scrollbar-track {
-  background: #BEBEBE; 
-}
-::-webkit-scrollbar-thumb {
-  background: #ED5565; 
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #ED5565; 
-}
-
 .container {
 	padding: 20px 5px 0 5px
 }
@@ -2698,4 +2685,17 @@ textarea {
 		right: 91.66667%;
 		left: auto
 	}
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 5px;
+::-webkit-scrollbar-track {
+  background: #BEBEBE; 
+}
+::-webkit-scrollbar-thumb {
+  background: #ED5565; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ED5565; 
 }
