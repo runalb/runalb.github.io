@@ -20,16 +20,17 @@
 		<!-- Preload critical assets -->
 		<link rel="preload" href="css/style.css" as="style">
 		<link rel="preload" href="img/profile-image4.png" as="image">
-		<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
+		<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
 		
 		<!-- Favicon -->
 		<link rel="icon" href="img/favicon.png" type="image/png">
 		
 		<!-- Stylesheets -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 		<link rel="stylesheet" href="css/loader.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 		
 		<!-- Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166773467-1"></script>
@@ -729,6 +730,23 @@
 			</div>
 
 
+
+			<div class="row box-skills">
+				<div class="large-12 column">
+					<div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+						<h1>Technologies</h1>
+					</div>
+					<div class="box" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+						<div class="box-content">
+							<div class="row part" id="technologies-container">
+								<!-- Technologies will be dynamically inserted here -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
 			<div class="row box-work">
 				<div class="large-12 column">
 					<div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
@@ -1018,6 +1036,7 @@
 					alert("\nSorry for the inconvenience!\n\nPlease check again later");
 			}
 		</script>
+		<script src="js/technologies.js"></script>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
 			AOS.init({
