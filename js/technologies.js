@@ -2,7 +2,7 @@
 const technologies = [
     { icon: 'devicon-java-plain', name: 'Java' },
     { icon: 'devicon-spring-plain', name: 'Spring' },
-    { icon: 'fa fa-hexagon-nodes', name: 'Microservices' },
+    { icon: 'fa fa-hexagon-nodes', name: 'Micro Services' },
     { icon: 'fa fa-code', name: 'REST APIs' },
     { icon: 'devicon-python-plain', name: 'Python' },
     { icon: 'devicon-angularjs-plain', name: 'Angular' },
